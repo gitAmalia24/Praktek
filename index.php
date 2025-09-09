@@ -1,9 +1,9 @@
 <?php
-include "connection.php";
-include "./model/product.model.php";
-include "./controller/product.controller.php";
-include "./view/product/product.view.php";
-$plants = new ProductView(); 
+include "connect.php";
+include "./model/katalog.model.php";
+include "./controller/katalog.controller.php";
+include "./view/katalog/katalog.view.php";
+$plants = new KatalogView(); 
 ?>
 
 <!DOCTYPE html>

@@ -1,5 +1,5 @@
 <?php 
-class KatalogModel extends Connection {
+class KatalogModel extends Connect {
     protected $nama;
     protected $kategori;
     protected $manfaat;
